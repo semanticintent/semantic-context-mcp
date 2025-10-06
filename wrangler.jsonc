@@ -1,6 +1,6 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
-	"name": "context-mcp-server",
+	"name": "semantic-context-mcp",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-03-10",
 	"compatibility_flags": [
@@ -21,7 +21,7 @@
 			{
 				"name": "MCP_OBJECT",
 				"class_name": "ContextMCP",
-				"script_name": "context-mcp-server"
+				"script_name": "semantic-context-mcp"
 			}
 		]
 	},
